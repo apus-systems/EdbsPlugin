@@ -1,0 +1,80 @@
+/***************************************************************************
+  Name         : EDBS plugin
+  Description  : conversion of EDBS data to polygon, line and point layers
+  Date         : 2013-06-30 
+  Copyright    : (c) 2013, Apus Systems
+  Email        : info@apus-systems.com
+  Version      : 0.1 Corvus Corone Cornix hacked Rudi Mantra Ry
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+
+EDBS plugin can be used to convert data from EDBS to Shapefiles. 
+
+EDBS (Einheitliche Datenbankschnittstelle, Unified Database Interface) is some
+container format used mainly for interchange of federal geographic data in
+Germany. Other free converters are EDBSsilon, EDBS_Extra and EDBS2WKT. They
+differ however in how robustly they deal with different "dialects" of EDBS. So
+the target of this project is to overcome those issues by ease of use via QGIS
+integration, by simpler code via Python and GDAL and by the power of open
+source bundling distributed contributions.
+
+
+
+
+Choose EDBS file, output directory and coordinate reference system. 
+Links to example data can be found below.
+
+If you don't want to extract all layers, give a comma separated list of the
+foil numbers you are going to process.
+
+With every extracted feature the original raw data will be included as
+attributes. For extracting additional properties out of those, add code at
+extractor.py.
+
+
+
+
+Example data can be downloaded at:
+
+
+~~~~~~~~~~~~~~
+http://www.landesvermessung.sachsen.de/inhalt/produkte/lika/alk/alk_download.html
+  
+ (1)   http://www.landesvermessung.sachsen.de/inhalt/produkte/lika/alk/download/EDBS_BSPE_Musterdaten.zip
+ (2)   http://www.landesvermessung.sachsen.de/inhalt/produkte/lika/alk/download/EDBS_FEIN_Musterdaten.zip
+
+
+~~~~~~~~~~~~~~
+http://www.stadtentwicklung.berlin.de/geoinformation/lika-auskunft/de/demo-daten.shtml
+
+ (3)   http://www.stadtentwicklung.berlin.de/geoinformation/lika-auskunft/download/DemoALKedbs.zip   
+
+
+~~~~~~~~~~~~~~   
+http://www.schleswig-holstein.de/LVERMGEOSH/DE/Service/Testdaten/alkisTestdaten.html
+
+ (4)   http://www.schleswig-holstein.de/LVERMGEOSH/DE/Service/Download/Testdaten/alk_rm_3gk3_0348_edbszip.html
+
+
+Dataset (2) (Ostritz, East Germany) is included in testdata directory.
+
+
+
+
+TODOs:
+  mixed CRS of layers and mapCanvas, check setExtent
+  advanced options, per foil configuration
+    objects,lines,points
+    CRS
+    QML/SLD
+  extractors
+  dialects
+

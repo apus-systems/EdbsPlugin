@@ -1,0 +1,56 @@
+Gebäude- u. Freifläche öffentliche Zwecke;110;GFÖ;01
+Bauplatz;120;BPL;01
+Gebäude- und Freifläche Wohnen;130;GFW;01
+Gebäude- und Freifläche Handel und Dienstleistungen;140;GFHD;01
+Gebäude- und Freifläche zu Versorgungsanlagen;150;GFVS;01
+Gebäude- und Freifläche zu Entsorgungsanlagen;160;GFES;01
+Gebäude- und Freifläche Gewerbe und Industrie;170;GFGI;01
+Gebäude- und Freifläche Land- und Forstwirtschaft;180;GFLF;01
+Gebäude- und Freifläche,  noch nicht aufgeschlüsselt;199;GF;01
+Betriebsfläche Abbauland Sand;311;BFS;03
+Betriebsfläche Abbauland Kies;312;BFKI;03
+Betriebsfläche Abbauland Lehm/Ton/Mergel;313;BFLT;03
+Betriebsfläche Abbauland Gestein;314;BFG;03
+Betriebsfläche Abbauland Kohle,Torf;316;BFK;03
+Abbauland, noch nicht aufgeschlüsselt;319;AB;03
+Betriebsfläche Halde;320;BFHA;03
+Betriebsfläche Lagerplatz;330;BFLP;03
+Betriebsfläche Versorgungsanlage;340;BFVS;03
+Betriebsfläche Entsorgungsanlage;350;BFES;03
+Sportfläche;410;SPO;04
+Kleingartenanlage;426;KLG;04
+Wochenendgelände;427;WO;04
+Andere Grünanlage;429;GRÜ;04
+Campingplatz;430;CP;04
+Erholungsfläche, noch nicht aufgeschlüsselt;499;SE;04
+Straße;510;S;05
+Weg;520;WEG;05
+Platz;530;PL;05
+Bahngelände;540;BGL;05
+Flugplatz;550;FPL;05
+Verkehrsfläche, noch nicht aufgeschlüsselt;599;VS;05
+Ackerland;610;A;06
+Grünland;620;GR;06
+Gartenland;630;G;06
+Weingarten;640;WG;06
+Moor;650;MO;15
+Heide;660;HEI;16
+Obstanbaufläche;670;OBST;06
+Laubwald;710;LH;07
+Nadelwald;720;NH;07
+Mischwald;730;LNH;07
+Gehölz;740;GH;07
+Waldfläche, noch nicht aufgeschlüsselt;799;H;07
+Fluss;810;WAF;08
+Kanal;820;WAK;08
+Hafen;830;WAH;08
+Bach, Graben;840;WABG;08
+See, Teich, Weiher;860;WAST;08
+Wasserfläche, noch nicht aufgeschlüsselt;889;WA;08
+Sumpf;890;WASU;08
+Militärisches Übungsgelände;913;MÜG;09
+Anderes Übungsgelände;919;ÜG;09
+Schutzfläche;920;SF;10
+Historische Anlage;930;HIST;11
+Friedhof;940;FHF;12
+Unland;950;U;13
